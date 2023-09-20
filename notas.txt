@@ -1,0 +1,45 @@
+Abrir terminal
+npm init
+descipcion
+keyword: sass gulp
+lisense: nombre dek autor
+podemos tener scrip el package
+
+
+INSTALANDO SASS 
+npm i sass
+lo mandas llamar npm run sass
+
+
+INSTALANDO GULP worfor
+npm i -D gulp
+crear archivo en la raiz gulpfile.js ()
+creando scrip "tarea" ejecuta 
+npm run tarea
+
+INSTALAR GULP-SASS
+npm i -D gulp-sass (conecta gulp con sass)
+
+Ya se pueden llamar npx gulp [el nombre de la tarea, ej: css]
+
+Con npm gulp dev sigue ejecutando sass y guarada los cambios automaticamente que se guarda en cualquier archivo
+Tambien lo puedes hacer con npx gulp dev si no te funciona la otra
+
+Crear carpeta en scss contenido y base y ahi un archivo _variable.scss
+
+Crear un archivo _index.scss en cada carpeta base y contenido
+
+Crear un archivo _normalize.scss en carpeta base con el contenido de su pagina web
+
+Instalar npm i -D gulp-plumber
+
+Creando gulp para webp
+mover imagen a scripinstalar npm i -D gulp-webp
+npm i -D gulp-webp
+
+Aligerar iamgenes con gulp
+npm i -D gulp-imagemin@7.1.0
+npm i -D gulp-cache
+
+Avif puede ser hasta mas ligero que webp
+npm i -D gulp-avif

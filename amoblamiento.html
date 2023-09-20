@@ -1,0 +1,358 @@
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Área 598</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="build/img/Logo_Icono.png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+      <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+       .image-column {
+             display: flex;
+             position: relative;
+             justify-content: center;
+             align-items: center;
+             gap: 10px;
+             overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+             margin-bottom: 20px;
+             padding-bottom: 20px;
+             max-width: 100%;
+             flex-wrap: nowrap; /* Evita que los thumbnails se envuelvan en una fila */
+         }
+
+         .image-column img {
+             width: auto;
+             max-width: 23%;
+             height: auto;
+             cursor: pointer;
+             flex: 0 0 auto;
+         }
+
+         .selected {
+             border: 3px solid #cd8e2a;
+         }
+
+         .row {
+             display: flex;
+             align-items: center;
+         }
+
+         @media (max-width: 768px) {
+             .image-column {
+                 flex-direction: row; /* Cambia la dirección a horizontal en pantallas móviles */
+                 overflow-x: hidden; /* Agrega una barra de desplazamiento horizontal si no caben todos los thumbnails */
+             }
+
+             .image-column img {
+                 max-width: 23%; /* Ajusta este valor según tus necesidades */
+             }
+         }
+
+         
+    </style>
+ </head>
+ <!-- body -->
+ <body class="main-layout inner_page">
+  <!-- loader  -->
+  <div class="loader_bg">
+     <div class="loader"><img src="build/img/loading.gif" alt="" /></div>
+  </div>
+  <!-- end loader -->
+  <!-- header -->
+  <header>
+     <div class="header">
+        <div class="container-fluid">
+           <div class="row d_flex">
+              <div class=" col-md-2 col-sm-3 col logo_section">
+                 <div class="full">
+                    <div class="center-desk">
+                       <div class="logo">
+                          <a href="/">
+                            <picture>
+                                <source srcset="build/img/logo.avif" type="image/avif">
+                                <source srcset="build/img/logo.webp" type="image/webp">
+                                <img src="build/img/logo.png" alt="Logo principal" />
+                             </picture>
+                          </a>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-8 col-sm-9">
+                <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto flex-row">
+                            <li class="nav-item dropdown" id="serviciosDropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdownLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios ▼</a>
+                                <div class="dropdown-menu" aria-labelledby="serviciosDropdownLink">
+                                    <a class="dropdown-item" href="fotografia.html">Fotografía HDR</a>
+                                    <a class="dropdown-item" href="videos.html">Video Tours</a>
+                                    <a class="dropdown-item" href="virtualtour.html">Tours Virtuales</a>
+                                    <a class="dropdown-item" href="amoblamiento.html">Amoblamiento Virtual</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="recursosDropdownLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recursos ▼</a>
+                                <div class="dropdown-menu" aria-labelledby="recursosDropdownLink">
+                                    <a class="dropdown-item" href="compare.html">Antes y después</a>
+                                    <a class="dropdown-item" href="preparacion.html">Preparación del lugar</a>
+                                    <a class="dropdown-item" href="preguntas.html">Preguntas frecuentes</a>
+                                    <a class="dropdown-item" href="terminos.html">Términos y condiciones</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Sobre Nosotros </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+              </div>
+           </div>
+        </div>
+     </div>
+  </header>
+  <!-- end header -->
+  <div class="we_do">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="stut text_align_center" style="padding-bottom: 0px;">
+                <h3>AMOBLAMIENTO VIRTUAL</h3>
+                <p>(virtual staging)</p>
+            </div>
+          </div>
+    </div>
+    <div class="prep-wrapper" style="padding: 5px; margin-bottom: 40px;">
+        <div class="serv-title">
+            <h2 style="margin-bottom: 5px;">Tocá en cada una de las secciones para ver la respuesta</h2>
+        </div>
+        <div class="serv-text">
+            <div class="serv-question-container" onclick="toggleServAnswer(1)" data-question="1">
+                <div class="serv-question">
+                    <span class="serv-triangle"></span>
+                    <h2>¿Qué es el amoblamiento virtual?</h2>
+                </div>
+                <p class="serv-answer1" style="display: none;">El <b>virtual staging</b>, también conocido como <b>amoblamiento virtual</b>, emplea tecnología para <b>embellecer</b> la apariencia del espacio más destacado de una propiedad mediante la generación de representaciones visuales. Esto posibilita que los posibles compradores contemplen la propiedad tal como sería si estuviera amoblada, eliminando la necesidad de imaginarlo.
+                    <br><br>
+                    El proceso de renderizado implica la creación de una <b>imagen</b> o secuencia de <b>imágenes</b> a partir de un modelo en 3D. En otras palabras, el renderizado utiliza técnicas de gráficos digitales para producir una <b>representación visual</b> de un modelo o escenario. Nuestro proceso de renderizado se basa en medidas precisas del espacio real, lo que garantiza que no haya discrepancias entre la <b>imagen</b> y la habitación real, brindando una <b>representación fiel</b>.
+                    <br><br>
+                    Las <b>imágenes</b> que incorporan mobiliario virtual suelen ser las más <b>destacadas</b>. Si planeas publicar la propiedad en un portal de ventas, como Mercado Libre o InfoCasas, te recomendamos seleccionar una de estas <b>imágenes</b> como portada, ya que la idea es destacar entre las demás propiedades en el portal mediante el uso de una <b>imagen con amoblamiento virtual</b>. Esto atraerá más <b>atención</b> y se traducirá en un mayor número de <b>consultas</b>, <b>visitas</b> y, finalmente, <b>reservas</b> de propiedades.
+                    <br><br>
+                    En última instancia, el <b>valor</b> de la propiedad no importa tanto. Te sugerimos aprovechar la puesta en escena virtual para todas las propiedades que desees vender, ya que esta <b>acción</b> marca la diferencia en tu trabajo. Esta diferencia se traduce en una <b>venta más rápida</b> y, en muchos casos, en un <b>mayor valor de venta</b> de bienes raíces.
+                </p>
+                             
+            </div>
+            <div class="serv-question-container" onclick="toggleServAnswer(2)" data-question="2">
+                <div class="serv-question">
+                    <span class="serv-triangle"></span>
+                    <h2>El amoblamiento virtual como estrategia de marketing</h2>
+                </div>
+                <p class="serv-answer2" style="display: none;">
+                    <b>El Virtual Staging</b> es una herramienta de <b>marketing</b> que se utiliza estratégicamente para captar la <b>atención</b> de los futuros compradores, mostrando de manera efectiva cómo podría lucir la propiedad amoblada y decorada.
+                    <br><br><br>
+                    <span style="font-size: 15px; font-weight: bold;">Algunos de los beneficios de esta estrategia de ventas incluyen:</span>
+                    <br><br>
+                    <b>1.</b> Resalta el potencial de la propiedad al hacerla más atractiva y versátil, lo que facilita la identificación de los <b>compradores</b> con el inmueble.
+                    <br><br>
+                    <b>2.</b> Atrae a más compradores, lo que se traduce en ventas <b>más rápidas</b> y a <b>precios más altos</b>.
+                    <br><br>
+                    <b>3.</b> Ahorra <b>tiempo</b>, <b>esfuerzo</b> y <b>dinero</b> en comparación con los cambios físicos, lo que lo convierte en una opción <b>eficiente</b>.
+                </p>
+                
+            </div>
+            <div class="serv-question-container" onclick="toggleServAnswer(3)" data-question="3">
+                <div class="serv-question">
+                    <span class="serv-triangle"></span>
+                    <h2>Datos estadisticos sobre los amoblamientos virtuales</h2>
+                </div>
+                <p class="serv-answer3" style="display: none;">
+                    <b>1. Aumento de la atracción visual:</b><br>El amoblamiento virtual hace que las propiedades sean más <b>atractivas</b> en las fotos y los anuncios. Según un estudio de <b>Realtor.com</b>, las propiedades con imágenes de alta calidad atraen un <b>47%</b> más de visitas en línea.
+                    <br><br>
+                    <b>2. Mejora de la percepción del espacio:</b><br>El uso de muebles virtuales puede ayudar a los compradores a comprender mejor la escala y el potencial de un espacio. Esto puede llevar a una mayor percepción del <b>valor de la propiedad</b>.
+                    <br><br>
+                    <b>3. Menor tiempo en el mercado:</b><br>Según un informe de <b>RESA (Real Estate Staging Association)</b>, las propiedades que se someten a home staging, que incluye el amoblamiento virtual, tienden a venderse un <b>73%</b> más rápido en comparación con las propiedades no preparadas.
+                    <br><br>
+                    <b>4. Aumento en el precio de venta:</b><br>Aunque los datos pueden variar según la ubicación y el mercado, un informe de la <b>Asociación Nacional de Agentes Inmobiliarios (NAR, por sus siglas en inglés)</b> sugiere que el home staging, que puede incluir amoblamiento virtual, puede aumentar el precio de venta en un promedio del <b>1%</b> al <b>5%</b>.
+                    <br><br>
+                    <b>5. Diferenciación en el mercado:</b><br>En un mercado competitivo, el amoblamiento virtual puede hacer que tu propiedad se destaque. Según un estudio de la <b>Asociación Internacional de Home Staging Profesionales (IAHSP)</b>, las propiedades preparadas para la venta tienden a recibir más ofertas y, en algunos casos, ofertas por encima del precio de venta.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="titlepage text_align_center" style="padding-bottom: 20px; font-size:60">
+                <h2>Ejemplo de amoblamientos</h2>
+            </div>
+            <div>
+                <p style="padding-bottom: 10px;">Elegí la foto y mové la barra para ver el antes y después del amoblamiento.</p>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="image-column">
+                    <img src="build/img/after5.png" data-before="build/img/before5.png" data-after="build/img/after5.png" alt="After 5" />
+                    <img src="build/img/after6.png" data-before="build/img/before6.png" data-after="build/img/after6.png" alt="After 6" />
+                <!-- <img src="images/after3.png" data-before="images/before3.png" data-after="images/after3.png" />
+                   <img src="images/after4.png" data-before="images/before4.png" data-after="images/after4.png" /> -->
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="twentytwenty-container" style="margin-left:495px; margin-bottom:20px;">
+                <img id="before-image" src="build/img/before5.png" />
+                <img id="after-image" src="build/img/after5.png" />
+            </div>
+        </div>
+    </div>
+ <!-- footer -->
+ <footer>
+    <div class="footer">
+       <div class="container">
+          <div class="row justify-content-center">
+             <div class="col-md-3 col-sm-12 text_align_center">
+                <a class="logo_footer" href="/">
+                    <picture>
+                        <source srcset="build/img/logo_footer.png" type="image/avif">
+                        <source srcset="build/img/logo_footer.png" type="image/webp">
+                        <img src="build/img/logo_footer.png" alt="Logo Footer" />
+                     </picture>
+                </a>
+             </div>
+                <div class="col-md-3 col-sm-3 text_align_center">
+                   <div class="Informa">
+                      <h3><a class="h3" href="servicios.html">Servicios</a></h3>
+                      <ul>
+                         <li><a href="fotografia.html">Fotografía HDR</a>                       
+                         </li>
+                         <li><a href="videos.html">Video Tours</a>                   
+                         </li>
+                         <li><a href="virtualtour.html">Tours Virtuales</a>
+                         </li>
+                         <li><a href="amoblamiento.html">Amoblamiento virtual</a>
+                         </li>
+                      </ul>
+                   </div>
+                </div>
+                <div class="col-md-3 col-sm-3 text_align_center">
+                   <div class="Informa">
+                      <h3 class="recur">Recursos</h3>
+                      <ul>
+                         <li><a href="compare.html">Antes y después<a>
+                         </li>
+                         <li><a href="preguntas.html">Preguntas frecuentes</a> 
+                         </li>
+                          <li><a href="preparacion.html">Preparando el hogar<a>
+                          </li>
+                          <li><a href="terminos.html">Términos y condiciones<a>
+                          </li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="col-md-3 col-sm-3 text_align_center">
+                   <div class="Informa conta">
+                      <h3><a class="h3" href="contact.html">Contacto</a></h3>
+                      <ul>
+                         <li> <a href="https://www.google.com/maps?q=Av.+18+de+Julio+841" target="_blank"> <i class="fa fa-map-marker" aria-hidden="true"></i> Av. 18 de Julio 841
+                            </a>
+                         </li>
+                         <li> <a href="https://wa.me/message/GTR4MX35V5OZC1" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> +598 97 02 75 92
+                            </a>
+                         </li>
+                         <li> <a href="mailto:info@area598.com" target="_blank"> <i class="fa fa-envelope" aria-hidden="true"></i> info@area598.com
+                            </a>
+                         </li>
+                      </ul>
+                   </div>
+             </div>
+          </div>
+       </div>
+       <div class="copyright text_align_left">
+          <div class="container">
+             <div class="row d_flex">
+                <div class="col-md-6">
+                   <p>© <a href="https://area598.com/">Área 598</a> - Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6">
+                   <ul class="social_icon text_align_center">
+                      <!-- <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                      <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                      <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
+                      <li> <a href="https://www.instagram.com/area598.uy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      <li> <a href="https://www.youtube.com/@Area598/videos" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                   </ul>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+ <!-- end footer -->
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery.event.move.js" type="text/javascript"></script>
+<script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
+<script>
+  $(function(){
+    $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
+    $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
+  });
+  </script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+         var thumbnailImages = document.querySelectorAll(".image-column img");
+         var beforeImage = document.getElementById("before-image");
+         var afterImage = document.getElementById("after-image");
+   
+         // Establecer la primera imagen como seleccionada
+         thumbnailImages[0].classList.add("selected");
+   
+         thumbnailImages.forEach(function(image) {
+            image.addEventListener("click", function() {
+               // Remover la clase "selected" de todas las imágenes
+               thumbnailImages.forEach(function(img) {
+                  img.classList.remove("selected");
+               });
+   
+               // Agregar la clase "selected" a la imagen seleccionada
+               this.classList.add("selected");
+   
+               var beforeImageSrc = this.getAttribute("data-before");
+               var afterImageSrc = this.getAttribute("data-after");
+   
+               beforeImage.src = beforeImageSrc;
+               afterImage.src = afterImageSrc;
+            });
+         });
+      });
+   </script>
+</body>
+</html>

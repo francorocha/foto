@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>Área 598</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="build/img/Logo_Icono.png">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- awesome fontfamily -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body class="main-layout">
+  <!-- loader  -->
+  <div class="loader_bg">
+     <div class="loader"><img src="build/img/loading.gif" alt="" /></div>
+  </div>
+  <!-- end loader -->
+  <!-- header -->
+  <header>
+    <div class="header">
+       <div class="container-fluid">
+          <div class="row d_flex">
+             <div class=" col-md-2 col-sm-3 col logo_section">
+                <div class="full">
+                   <div class="center-desk">
+                      <div class="logo">
+                         <a href="/">
+                           <picture>
+                              <source srcset="build/img/logo.avif" type="image/avif">
+                              <source srcset="build/img/logo.webp" type="image/webp">
+                              <img src="build/img/logo.png" alt="Logo principal" />
+                           </picture>
+                         </a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="col-md-8 col-sm-9">
+               <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                      aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarsExample04">
+                      <ul class="navbar-nav mr-auto flex-row">
+                          <li class="nav-item dropdown" id="serviciosDropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdownLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios ▼</a>
+                              <div class="dropdown-menu" aria-labelledby="serviciosDropdownLink">
+                                  <a class="dropdown-item" href="fotografia.html">Fotografía HDR</a>
+                                  <a class="dropdown-item" href="videos.html">Video Tours</a>
+                                  <a class="dropdown-item" href="virtualtour.html">Tours Virtuales</a>
+                                  <a class="dropdown-item" href="amoblamiento.html">Amoblamiento Virtual</a>
+                              </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="recursosDropdownLink" role="button"
+                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recursos ▼</a>
+                              <div class="dropdown-menu" aria-labelledby="recursosDropdownLink">
+                                  <a class="dropdown-item" href="compare.html">Antes y después</a>
+                                  <a class="dropdown-item" href="preparacion.html">Preparación del lugar</a>
+                                  <a class="dropdown-item" href="preguntas.html">Preguntas frecuentes</a>
+                                  <a class="dropdown-item" href="terminos.html">Términos y condiciones</a>
+                              </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="about.html">Sobre Nosotros </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contacto</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+             </div>
+          </div>
+       </div>
+    </div>
+ </header>
+  <!-- end header -->
+  <section class="prep-container">
+    <article class="prep-wrapper">
+      <div class="prep-title">
+        <h2>Preguntas frecuentes</h2>
+      </div>
+      <div class="prep-text">
+         <div class="question-container" onclick="toggleAnswer(1)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cuántas fotos se tomarán?</h2>
+            </div>
+            <p id="answer1" style="display: none;">Existen muchos factores que determinan la cantidad de imágenes. Generalmente intentamos cubrir todas las habitaciones con al menos una imagen. Por lo general, las cocinas, salas de estar, dormitorios principales y exteriores requieren varias imágenes para abarcar todos los ángulos del espacio. Un hogar promedio de 185 metros cuadrados requerirá de 25 a 35 imágenes.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(2)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cuál es tu área de servicio?</h2>
+            </div>
+            <p id="answer2" style="display: none;">Cubrimos todo Montevideo y parte del área metropolitana. Por locaciones en el interior se suele cobrar una tarifa por desplazamiento y expensas.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(3)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Realizas fotos con drones/aéreas?</h2>
+            </div>
+            <p id="answer3" style="display: none;">De momento no, pero dentro de poco lo sumaremos a nuestros servicios.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(4)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cómo programo una cita?</h2>
+            </div>
+            <p id="answer4" style="display: none;">Los clientes nuevos deben llamarnos o enviar un mensaje por WhatsApp al <a href="https://wa.me/message/GTR4MX35V5OZC1" target="_blank" style="font-weight: bold;">+(598) 97 02 75 92</a>. Una vez que estés registrado como cliente, puedes programar una cita mediante mensaje de texto, WhatsApp, llamada o por mail.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(5)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Como es el tema del pago?</h2>
+            </div>
+            <p id="answer5" style="display: none;">En el momento que se agende una fecha se debe abonar el 50% para que quede efectiva la reserva, y el otro 50% se paga al entregar el trabajo, en los enlaces que se le proporcionara con el contenido para descargar.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(6)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cobras una tarifa por desplazamiento?</h2>
+            </div>
+            <p id="answer6" style="display: none;">Dentro de Montevideo, no. Para sesiones en el interior del país, cobramos pasaje de ida y vuelta para el fotógrafo. En caso de que la sesión sea extensa (por fotos en amanecer y atardecer, por ejemplo) se cobran viáticos por las comidas del día y el alojamiento en caso de ser necesario. Si el cliente tiene forma de proveer alguno o todos esos servicios, se le cobra solo el viaje.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(7)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cuándo recibiremos nuestras fotos?</h2>
+            </div>
+            <p id="answer7" style="display: none;">Las fotos estarán listas con un mínimo de 24 horas posteriores a la sesión y un máximo de 48 horas luego de ésta. Una vez que las fotos estén listas, te enviaremos un correo electrónico con enlaces a la página de entrega, donde podrán previsualizar el contenido antes de efectuar el pago restante.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(8)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Qué sucede si llueve o el clima no es bueno?</h2>
+            </div>
+            <p id="answer8" style="display: none;">La sesión de fotos se puede reprogramar debido a malas condiciones climáticas para la próxima fecha disponible sin cargo adicional. Si prefieres mantener la cita, podemos fotografiar el interior de la vivienda y luego reprogramar las fotos exteriores por una tarifa del 25% del valor total.<br><br>Por ejemplo, si contrata un servicio de solo fotografía (60 USD) para el martes 19 de junio y llueve, pero decide sacar las fotos del interior. Puede reservar para el 24 de junio, las fotos de exterior por solo 15 USD más, lo que se le sumaría a los 60 USD originales, dando un total de 75 USD. Imaginando que ya abono la reserva, debería abonar 45 USD a la entrega final del producto.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(9)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Qué sucede si necesitamos cancelar?</h2>
+            </div>
+            <p id="answer9" style="display: none;">Entendemos que existen muchas situaciones que pueden ocasionar una cancelación de último momento. No hay cargos por cancelación si nos notificas el día anterior a la sesión, y se te devuelve la seña del 50%. Si decides posponer la sesión, tampoco hay cargos al respecto. Pero para cancelaciones en el mismo día, la tarifa de cancelación es el total de la seña.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(10)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cuánto tiempo dura la sesión de fotos?</h2>
+            </div>
+            <p id="answer10" style="display: none;">Una sesión de fotos promedio dura entre 45 minutos y 2 horas. Sin embargo, puede llevar más tiempo dependiendo del tamaño de la vivienda y cualquier servicio adicional solicitado.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(11)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cuánto tiempo conservamos las copias de tus imágenes?</h2>
+            </div>
+            <p id="answer11" style="display: none;">Garantizamos que conservaremos tus imágenes durante al menos tres meses. Sin embargo, generalmente nunca eliminamos las imágenes.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(12)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Con cuánta antelación debo reservar la fecha de la sesión?</h2>
+            </div>
+            <p id="answer12" style="display: none;">No hay límite de tiempo para reservar una sesión de fotos. Cuánto antes, mejor.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(13)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Cómo sé si mi hogar y propiedad están listos para la fotografía inmobiliaria?</h2>
+            </div>
+            <p id="answer13" style="display: none;">He creado una lista de verificación para preparar tu hogar para la fotografía, que describe lo que debes hacer para que tu casa luzca lo mejor posible en las fotos. <a href="preparacion.html" style="font-weight: bold;">Haga click en este enlace para leerla.</a></p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(14)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Las fotos se redimensionarán y optimizarán para InfoCasas o Mercado Libre?</h2>
+            </div>
+            <p id="answer14" style="display: none;">Sí. Todas las fotos se optimizarán para publicar en los sitios más frecuentes de venta o alquileres dentro del mercado. También podemos proporcionar imágenes de alta resolución bajo solicitud.</p>
+         </div>
+         <div class="question-container" onclick="toggleAnswer(15)">
+            <div class="question">
+               <span class="triangle"></span>
+               <h2>¿Soy dueño de los derechos de autor de las fotos una vez que haya pagado?</h2>
+            </div>
+            <p id="answer15" style="display: none;">No. Como estándar en la industria de la fotografía, el fotógrafo retiene los derechos de autor de todas las imágenes. Compras una licencia de imagen de uso único y no transferible con el propósito de comercializar la propiedad. Esa licencia de imagen es válida durante la duración de tu anuncio y expira una vez que el anuncio se venda, cancele o se asigne a otro agente o inmobiliaria. Cualquier uso de las fotos por parte de un tercero, incluido otro agente o constructor, está prohibido a menos que se apruebe por escrito. Los clientes que deseen utilizar fotografías seleccionadas para uso continuo en la comercialización de su negocio pueden adquirir una licencia de uso separada. Para obtener más información, consulta nuestros términos y condiciones.</p>
+         </div>
+    </article>
+  </section>
+  <!-- footer -->
+  <footer>
+   <div class="footer">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-12 text_align_center">
+               <a class="logo_footer" href="/">
+                  <picture>
+                     <source srcset="build/img/logo_footer.png" type="image/avif">
+                     <source srcset="build/img/logo_footer.png" type="image/webp">
+                     <img src="build/img/logo_footer.png" alt="Logo Footer" />
+                  </picture>
+               </a>
+            </div>
+               <div class="col-md-3 col-sm-3 text_align_center">
+                  <div class="Informa">
+                     <h3><a class="h3" href="servicios.html">Servicios</a></h3>
+                     <ul>
+                        <li><a href="fotografia.html">Fotografía HDR</a>                       
+                        </li>
+                        <li><a href="videos.html">Video Tours</a>                   
+                        </li>
+                        <li><a href="virtualtour.html">Tours Virtuales</a>
+                        </li>
+                        <li><a href="amoblamiento.html">Amoblamiento virtual</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-3 text_align_center">
+                  <div class="Informa">
+                     <h3 class="recur">Recursos</h3>
+                     <ul>
+                        <li><a href="compare.html">Antes y después<a>
+                        </li>
+                        <li><a href="preguntas.html">Preguntas frecuentes</a> 
+                        </li>
+                         <li><a href="preparacion.html">Preparando el hogar<a>
+                         </li>
+                         <li><a href="terminos.html">Términos y condiciones<a>
+                         </li>
+                      </ul>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-3 text_align_center">
+                  <div class="Informa conta">
+                     <h3><a class="h3" href="contact.html">Contacto</a></h3>
+                     <ul>
+                        <li> <a href="https://www.google.com/maps?q=Av.+18+de+Julio+841" target="_blank"> <i class="fa fa-map-marker" aria-hidden="true"></i> Av. 18 de Julio 841
+                           </a>
+                        </li>
+                        <li> <a href="https://wa.me/message/GTR4MX35V5OZC1" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> +598 97 02 75 92
+                           </a>
+                        </li>
+                        <li> <a href="mailto:info@area598.com" target="_blank"> <i class="fa fa-envelope" aria-hidden="true"></i> info@area598.com
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright text_align_left">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <p>© <a href="https://area598.com/">Área 598</a> - Todos los derechos reservados.</p>
+               </div>
+               <div class="col-md-6">
+                  <ul class="social_icon text_align_center">
+                     <!-- <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                     <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                     <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
+                     <li> <a href="https://www.instagram.com/area598.uy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     <li> <a href="https://www.youtube.com/@Area598/videos" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+<!-- end footer -->
+ <!-- Javascript files-->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/jquery-3.0.0.min.js"></script>
+ <script src="js/custom.js"></script>
+</body>
+</html>
